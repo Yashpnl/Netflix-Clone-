@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="bg_img">
+            <nav>
+                <div class="logo">
+                    <svg width="150px" height="150px" viewBox="0 -187 512 512" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        preserveAspectRatio="xMidYMid">
+                        <g>
+                            <path
+                                d="M340.657183,0 L340.657183,100.203061 C353.016406,100.778079 365.344207,101.473198 377.637095,102.293306 L377.637095,123.537553 C358.204486,122.242243 338.690182,121.253471 319.094879,120.57923 L319.094879,0 L340.657183,0 Z M512,0.0118710746 L483.922918,65.1060972 L511.993017,137.54371 L511.961595,137.557485 C503.784957,136.3909 495.597845,135.289637 487.386294,134.233936 L471.623048,93.5776798 L455.709676,130.459835 C448.168455,129.627123 440.61676,128.839275 433.047609,128.100899 L460.419447,64.6708546 L435.351871,0.0118710746 L458.677285,0.0118710746 L472.712335,36.1957639 L488.318473,0.0118710746 L512,0.0118710746 Z M245.093161,119.526252 L245.092462,0.0114869428 L305.282574,0.0114869428 L305.282574,21.4467074 L266.654767,21.4467074 L266.654767,49.2277266 L295.881884,49.2277266 L295.881884,70.4719734 L266.654767,70.4719734 L266.654767,119.521329 L245.093161,119.526252 Z M164.580156,21.448488 L164.579458,0.0103695593 L231.270382,0.0103695593 L231.270382,21.4469875 L208.705375,21.4469875 L208.705375,120.107799 C201.508397,120.296154 194.3191,120.519389 187.144466,120.790104 L187.144466,21.448488 L164.580156,21.448488 Z M90.8682168,126.966224 L90.8682168,0.0139657936 L150.758077,0.0139657936 L150.758077,21.4491862 L112.42703,21.4491862 L112.42703,50.4849807 C121.233151,50.3722116 133.754021,50.2444297 141.543822,50.2632828 L141.543822,71.5092753 C131.792954,71.388127 120.786264,71.6429923 112.42703,71.7264345 L112.42703,103.88974 C125.166805,102.887736 137.944984,102.011069 150.758077,101.270912 L150.758077,122.517253 C130.704017,123.672422 110.740031,125.160591 90.8682168,126.966224 Z M48.5710466,77.8540254 L48.5696502,0.0104745953 L70.1319549,0.0104745953 L70.1319549,128.968837 C62.2496338,129.779728 54.3823252,130.642465 46.5286328,131.553346 L21.5609083,59.8244682 L21.5609083,134.625696 C14.3597408,135.563565 7.17323695,136.54141 0,137.562338 L0,0.0118710746 L20.4911722,0.0118710746 L48.5710466,77.8540254 Z M395.425298,124.819071 L395.425298,124.819211 L395.425298,0.0120101224 L416.987603,0.0120101224 L416.987603,126.599777 C409.809478,125.960833 402.624371,125.369895 395.425298,124.819071 Z"
+                                fill="#DB202C" fill-rule="nonzero">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div>
+                    <button class="language-btn">English
+                        <svg width="20px" height="20px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"
+                            aria-labelledby="languageIconTitle" stroke="#ffffff" stroke-width="1"
+                            stroke-linecap="square" stroke-linejoin="miter" fill="none" color="#000000">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                            <g id="SVGRepo_iconCarrier">
+                                <title id="languageIconTitle">Language</title>
+                                <circle cx="12" cy="12" r="10" />
+                                <path stroke-linecap="round"
+                                    d="M12,22 C14.6666667,19.5757576 16,16.2424242 16,12 C16,7.75757576 14.6666667,4.42424242 12,2 C9.33333333,4.42424242 8,7.75757576 8,12 C8,16.2424242 9.33333333,19.5757576 12,22 Z" />
+                                <path stroke-linecap="round" d="M2.5 9L21.5 9M2.5 15L21.5 15" />
+                            </g>
+
+                        </svg>
+                    </button>
+                    <button>Sign In</button>
+                </div>
+            </nav>
+            <div class="header-content">
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h3>Watch anywhere. Cancle anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-signup">
+                    <input type="email" placeholder="Emailaddress" required>
+                    <button type="submit">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="fetures">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="https://www.degonline.org/wp-content/uploads/2023/05/netflix-page-scaled.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere.</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="img-col">
+                <img src="https://res.cloudinary.com/jerrick/image/upload/v1638633779/61ab9133dd86c4001eef1ac0.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img
+                    src="https://occ-0-3061-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d">
+            </div>
+            <div class="text-col">
+                <h2>Create profile for children.</h2>
+                <p>Send children on adventures with their favourite characters in a space made just for them-free with
+                    your
+                    membership.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2>Frequently Asked Quetions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo consequuntur numquam
+                        asperiores animi, magni quae, ullam commodi facilis sit doloribus quam veritatis harum ex
+                        debitis! Dignissimos aliquid quia voluptate.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo consequuntur numquam
+                        asperiores animi, magni quae, ullam commodi facilis sit doloribus quam veritatis harum ex
+                        debitis! Dignissimos aliquid quia voluptate.</p>
+                </div>
+
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Where can I watch?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo consequuntur numquam
+                        asperiores animi, magni quae, ullam commodi facilis sit doloribus quam veritatis harum ex
+                        debitis! Dignissimos aliquid quia voluptate.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">How do I cancel?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo consequuntur numquam
+                        asperiores animi, magni quae, ullam commodi facilis sit doloribus quam veritatis harum ex
+                        debitis! Dignissimos aliquid quia voluptate.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="five">
+                <label for="five">What can I watch on Netflix?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo consequuntur numquam
+                        asperiores animi, magni quae, ullam commodi facilis sit doloribus quam veritatis harum ex
+                        debitis! Dignissimos aliquid quia voluptate.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="sixth">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nemo consequuntur numquam
+                        asperiores animi, magni quae, ullam commodi facilis sit doloribus quam veritatis harum ex
+                        debitis! Dignissimos aliquid quia voluptate.</p>
+                </div>
+            </li>
+        </ul>
+        <small>Ready to watch? Enter your email to create or restart your membership.</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Emailaddress" required>
+            <button type="submit">Get Started</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h2>Quetions? call 000-111-222-333-000</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Prefernces</a>
+                <a href="#">Leagal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to watch</a>
+                <a href="#">Corpoorate Informatiom</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Center</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="language-btn">English <img src="down-icon.png"></button>
+        <p class="copyright-txt">Netflix India</p>
+    </div>
+</body>
+
+</html>
